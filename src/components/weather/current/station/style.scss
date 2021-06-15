@@ -1,0 +1,37 @@
+$tone1:#333333;
+$tone2:#BBBBBB;
+$tone3:#CCCCCC;
+$tone4:#DDDDDD;
+$tone5:#EEEEEE;
+$tone6:#FFFFFF;
+
+.card{
+    display: flex;
+}
+Button{
+    width: 100px;
+    justify-content: flex-end;
+}
+.station-weather-card-parent{
+    text-align: center;
+}
+.weather-elements-row{
+    text-align: center;
+}
+.advanced-button-container{
+    text-align: right;
+}
+.advanced-button-container .btn{
+    margin: 10px;
+}
+
+.weather-elements-row .col div{
+    text-align: center;
+
+}
+.weather-elements-row .col div{
+    width: 100px;
+    border-radius: 10px;
+    background-color: $tone3;
+    margin: auto;
+}

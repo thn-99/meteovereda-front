@@ -1,0 +1,65 @@
+.avg-temp{
+    height:70px;
+    font-size:70px;
+    line-height:70px;
+    //text-align: right;
+    margin: 0;
+    padding: 0;
+    color:rgba(255, 255, 255, 0.75);
+}
+.future-container{
+    //background-color: #5a6474;
+    color: white;
+}
+.celcius-degree{
+    position: relative;
+    left: -50%;
+}
+.main-icon{
+    height:70px;
+    font-size:70px;
+    line-height:70px;
+}
+.alt-temp{
+    display: inline-flex;
+}
+
+.alt-temp-container{
+    top: -10px;
+    position: relative;
+}
+
+/* thunderstorm */
+.weather-2 {
+    background: linear-gradient(#4a4da070, #72c0e270);
+  }
+  
+  /* drizzle */
+  .weather-3 {
+    background: linear-gradient(#d382fd70, #72c0e270);
+  }
+  
+  /* rain */
+  .weather-5 {
+    background: linear-gradient(#5c51fd70, #72c0e270);
+  }
+  
+  /* snow */
+  .weather-6 {
+    background: linear-gradient(#c5e2f770, #72c0e270);
+  }
+  
+  /* atmosphere */
+  .weather-7 {
+    background: linear-gradient(#fe818170, #72c0e270);
+  }
+  
+  /* clouds */
+  .weather-8 {
+    background: linear-gradient(#ea388a70, #72c0e270);
+  }
+  
+  /* clear */
+  .weather-800 {
+    background: linear-gradient(#2fcc9670, #72c0e270);
+  }

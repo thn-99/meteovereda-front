@@ -1,0 +1,18 @@
+
+$theme-colors: (
+  "primary": #cdd2d6,
+  "danger": #ff4136
+);
+@import "~bootstrap/scss/bootstrap.scss";
+@import "./styles/weather-icons/weather-icons.scss";
+//@import "./styles/weather-icons/weather-icons-wind.scss";
+
+
+.App {   text-align: center; 
+background-color: #EDECE8;
+}
+
+*{
+  box-sizing: border-box;
+}
+
