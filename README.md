@@ -2,7 +2,7 @@
 
 
 
-##Despliegue Automatizado(FTP necesario)
+## Despliegue Automatizado(FTP necesario)
 Para desplegarlo de forma automática, simplemente clonamos el repositorio de GitHub.
 Vamos a **Actions** del repositorio y editamos el action **CI**
 En el archivo editamos la ruta en la que queremos que se ubiquen los archivos y la dirección del servidor ftp
@@ -16,7 +16,7 @@ Añadimos dos secrets:
 y ejecutamos la Action
 
 
-##Despliegue Manual
+## Despliegue Manual
 Para desplegarlo en un servidor(linux) instalamos apache:
 
 En nuestro ordenador instalamos npm.
